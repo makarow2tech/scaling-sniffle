@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-11-13T21:21:41.900Z",
+  "communities": [
+    {
+      "name": "Genel Sinyal",
+      "slug": "genel",
+      "description": "Ağın ana kanalı. Duyurular, protokol notları ve genel tartışma.",
+      "rules": null,
+      "is_restricted": false,
+      "post_count": 0,
+      "accent": null,
+      "id": "6af766a86e985bd19566d2ed",
+      "created_date": "2026-11-13T19:36:08.660000",
+      "updated_date": "2026-11-13T20:21:01.715000",
+      "created_by_id": "6af764e76e985bd19566d1d3",
+      "is_sample": false
+    },
+    {
+      "name": "Kriptografi",
+      "slug": "kriptografi",
+      "description": "E2EE, anahtar yönetimi, tehdit modellemesi ve kriptografik protokol tartışmaları.",
+      "rules": null,
+      "is_restricted": false,
+      "post_count": 0,
+      "accent": null,
+      "id": "6af766a86e985bd19566d2ee",
+      "created_date": "2026-11-13T19:36:08.660000",
+      "updated_date": "2026-11-13T20:21:01.741000",
+      "created_by_id": "6af764e76e985bd19566d1d3",
+      "is_sample": false
+    },
+    {
+      "name": "Sızıntı Masası",
+      "slug": "sizinti",
+      "description": "Doğrulanmış kaynaklardan gelen güvenlik olayları ve analizler.",
+      "rules": null,
+      "is_restricted": false,
+      "post_count": 0,
+      "accent": null,
+      "id": "6af766a86e985bd19566d2ef",
+      "created_date": "2026-11-13T19:36:08.660000",
+      "updated_date": "2026-11-13T20:21:01.748000",
+      "created_by_id": "6af764e76e985bd19566d1d3",
+      "is_sample": false
+    },
+    {
+      "name": "Ticaret",
+      "slug": "ticaret",
+      "description": "Pazar yeri duyuruları, satıcı notları ve güvenli alışveriş protokolleri.",
+      "rules": null,
+      "is_restricted": false,
+      "post_count": 0,
+      "accent": null,
+      "id": "6af766a86e985bd19566d2f0",
+      "created_date": "2026-11-13T19:36:08.660000",
+      "updated_date": "2026-11-13T20:21:01.736000",
+      "created_by_id": "6af764e76e985bd19566d1d3",
+      "is_sample": false
+    }
+  ],
+  "posts": [],
+  "items": [],
+  "settings": {
+    "trade_enabled": true,
+    "trade_notice": "",
+    "announcement": "",
+    "storage_provider": "platform",
+    "storage_endpoint": "",
+    "storage_bucket": "",
+    "storage_region": "",
+    "storage_public_base": "",
+    "storage_prefix": ""
+  }
+}

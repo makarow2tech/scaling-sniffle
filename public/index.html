@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Silent Signal XX</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <span class="dot"></span>
+      <h1>Silent Signal <em>XX</em></h1>
+      <span class="badge">AES-256-GCM · ECDH P-256</span>
+    </header>
+
+    <main>
+      <section class="composer">
+        <h2>Yeni şifreli gönderi</h2>
+        <input id="title" placeholder="Başlık" />
+        <textarea id="body" rows="5" placeholder="Şifrelenecek içerik"></textarea>
+        <div class="row">
+          <label><input type="checkbox" id="anon" checked /> anonim</label>
+          <button id="publish">Şifrele ve yayınla</button>
+        </div>
+        <p id="status" class="status"></p>
+      </section>
+
+      <section>
+        <h2>Akış</h2>
+        <div id="feed" class="feed"></div>
+      </section>
+    </main>
+
+    <footer>Sunucu yalnızca şifreli metni saklar. Anahtarlar tarayıcında üretilir.</footer>
+    <script src="/app.js"></script>
+  </body>
+</html>

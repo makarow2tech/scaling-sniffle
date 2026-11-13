@@ -1,0 +1,22 @@
+:root { --bg: #050508; --surface: #0d0e15; --line: rgba(0, 240, 255, 0.14); --ink: #ffffff; --muted: #8b95a7; --neon: #00f0ff; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+header { display: flex; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+header h1 { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 16px; letter-spacing: 0.18em; text-transform: uppercase; margin: 0; }
+header h1 em { color: var(--neon); font-style: normal; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--neon); box-shadow: 0 0 12px var(--neon); }
+.badge { margin-left: auto; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--neon); border: 1px solid var(--line); padding: 6px 8px; border-radius: 8px; }
+main { max-width: 760px; margin: 0 auto; padding: 20px; display: grid; gap: 24px; }
+section h2 { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); }
+.composer { border: 1px solid var(--line); border-radius: 12px; padding: 16px; background: var(--surface); display: grid; gap: 10px; }
+input, textarea { width: 100%; background: #111623; border: 1px solid #232b3b; border-radius: 8px; color: var(--ink); padding: 10px 12px; font-size: 14px; font-family: inherit; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--muted); }
+button { background: var(--neon); color: #04121a; border: 0; border-radius: 8px; padding: 10px 16px; font-weight: 600; cursor: pointer; }
+.status { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--neon); margin: 0; }
+.feed { display: grid; gap: 12px; }
+.card { border: 1px solid #1b2230; border-radius: 12px; padding: 14px; background: var(--surface); }
+.card h3 { margin: 6px 0; font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 16px; }
+.meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.body { margin: 0; font-size: 14px; color: #c8d0dc; white-space: pre-wrap; }
+.empty { color: var(--muted); font-size: 13px; }
+footer { border-top: 1px solid var(--line); padding: 16px 20px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
